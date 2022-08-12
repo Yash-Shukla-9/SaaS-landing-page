@@ -1,0 +1,110 @@
+/* nav section            */
+
+header {
+  background-color: blueviolet;
+  border-radius: 25px 25px 0 0;
+  height: 35rem;
+  margin-bottom: 3rem;
+  padding-top: 2rem;
+}
+
+.nav-bar {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 25px 25px 0 0;
+}
+
+.nav-img img {
+  margin-left: 8rem;
+}
+
+.lists {
+  display: flex;
+  list-style: none;
+  gap: 4rem;
+}
+
+.list-active {
+  color: #3989e2;
+  text-decoration: underline;
+  text-decoration-color: goldenrod;
+}
+
+.group-list {
+  display: flex;
+  gap: 6rem;
+  align-items: center;
+  margin-right: 8rem;
+}
+
+.Btns {
+  padding: 8px 10px;
+  background-color: #1bbcef;
+  color: white;
+  border: 2px solid #1bbcef;
+}
+
+.hero-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.head {
+  color: white;
+  font-size: 3rem;
+}
+
+.nav-para {
+  color: white;
+  font-size: 1rem;
+}
+
+.hero2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5rem;
+}
+
+.hero2-heading {
+  display: flex;
+}
+
+.arrow {
+  position: relative;
+  right: 2rem;
+  top: 2.8rem;
+}
+
+.arrow-orng {
+  color: orangered;
+}
+
+.arrow-green {
+  color: green;
+}
+
+.arrow-blue {
+  color: blue;
+}
+
+.sec3 {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  height: 30rem;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  box-shadow: 2px 1px 0px #e5e9f0;
+  height: 15rem;
+  border-radius: 10px;
+}
