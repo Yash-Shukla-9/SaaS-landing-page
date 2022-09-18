@@ -108,3 +108,67 @@ header {
   height: 15rem;
   border-radius: 10px;
 }
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+@media (max-width: 600px) {
+  .nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .lists {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .head {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .nav-para {
+    color: black;
+  }
+
+  .sec-img img {
+    display: none;
+  }
+  .hero2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .hero2-img img {
+    width: 20rem;
+    margin: auto;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+  }
+
+  .hero-nav {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 700px) {
+  .lists {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .sec-img {
+    width: 25rem;
+  }
+}
